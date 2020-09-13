@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1130651E8FBE90B46909D0 /* Pods_InstaGif_InstaGifUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20C6539B870992F2D5B4761 /* Pods_InstaGif_InstaGifUITests.framework */; };
+		73ED2B73D9982D171D2C5144 /* Pods_InstaGifTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791ECE3EECCD7D736A5F204F /* Pods_InstaGifTests.framework */; };
+		963116DA55FFB3FC7B80D17C /* Pods_InstaGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990D3845938952D2A762AFC8 /* Pods_InstaGif.framework */; };
 		965D346E250971070007115D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D346D250971070007115D /* AppDelegate.swift */; };
 		965D3470250971070007115D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D346F250971070007115D /* SceneDelegate.swift */; };
 		965D3472250971070007115D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D3471250971070007115D /* ContentView.swift */; };
@@ -15,6 +18,11 @@
 		965D347A2509710B0007115D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965D34782509710B0007115D /* LaunchScreen.storyboard */; };
 		965D34852509710B0007115D /* InstaGifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D34842509710B0007115D /* InstaGifTests.swift */; };
 		965D34902509710B0007115D /* InstaGifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D348F2509710B0007115D /* InstaGifUITests.swift */; };
+		965D349E2509725F0007115D /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D349D2509725F0007115D /* Handler.swift */; };
+		965D34A0250975990007115D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D349F250975990007115D /* Response.swift */; };
+		965D34A2250AAB5C0007115D /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D34A1250AAB5C0007115D /* ActivityViewController.swift */; };
+		965D34A4250AAF2A0007115D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D34A3250AAF2A0007115D /* ActivityIndicator.swift */; };
+		96792CC8250AB93D00C01C17 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96792CC7250AB93D00C01C17 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23A819D1BE716F97B3F4E3BF /* Pods-InstaGif-InstaGifUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGif-InstaGifUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaGif-InstaGifUITests/Pods-InstaGif-InstaGifUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		273071D3DFF326C4703FD90E /* Pods-InstaGif-InstaGifUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGif-InstaGifUITests.release.xcconfig"; path = "Target Support Files/Pods-InstaGif-InstaGifUITests/Pods-InstaGif-InstaGifUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36BB8013E5CD5EDC0C97E323 /* Pods-InstaGifTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGifTests.release.xcconfig"; path = "Target Support Files/Pods-InstaGifTests/Pods-InstaGifTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B0A082ECD72F3A80DDE2FF6 /* Pods-InstaGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGif.release.xcconfig"; path = "Target Support Files/Pods-InstaGif/Pods-InstaGif.release.xcconfig"; sourceTree = "<group>"; };
+		791ECE3EECCD7D736A5F204F /* Pods_InstaGifTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaGifTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A0C57CFE95C52455734C4C /* Pods-InstaGifTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGifTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaGifTests/Pods-InstaGifTests.debug.xcconfig"; sourceTree = "<group>"; };
 		965D346A250971070007115D /* InstaGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		965D346D250971070007115D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		965D346F250971070007115D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,14 @@
 		965D348B2509710B0007115D /* InstaGifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaGifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		965D348F2509710B0007115D /* InstaGifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaGifUITests.swift; sourceTree = "<group>"; };
 		965D34912509710B0007115D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965D349D2509725F0007115D /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
+		965D349F250975990007115D /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		965D34A1250AAB5C0007115D /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		965D34A3250AAF2A0007115D /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		96792CC7250AB93D00C01C17 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		990D3845938952D2A762AFC8 /* Pods_InstaGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20C6539B870992F2D5B4761 /* Pods_InstaGif_InstaGifUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaGif_InstaGifUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C57A6E68DBD3E6260D85CE /* Pods-InstaGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaGif.debug.xcconfig"; path = "Target Support Files/Pods-InstaGif/Pods-InstaGif.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963116DA55FFB3FC7B80D17C /* Pods_InstaGif.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73ED2B73D9982D171D2C5144 /* Pods_InstaGifTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1130651E8FBE90B46909D0 /* Pods_InstaGif_InstaGifUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,8 @@
 				965D34832509710B0007115D /* InstaGifTests */,
 				965D348E2509710B0007115D /* InstaGifUITests */,
 				965D346B250971070007115D /* Products */,
+				A11B33AB3409D473F905C77A /* Pods */,
+				EB015B38E3A420F000C00765 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +126,7 @@
 		965D346C250971070007115D /* InstaGif */ = {
 			isa = PBXGroup;
 			children = (
+				96792CC6250AB92900C01C17 /* extensions */,
 				965D346D250971070007115D /* AppDelegate.swift */,
 				965D346F250971070007115D /* SceneDelegate.swift */,
 				965D3471250971070007115D /* ContentView.swift */,
@@ -106,6 +134,10 @@
 				965D34782509710B0007115D /* LaunchScreen.storyboard */,
 				965D347B2509710B0007115D /* Info.plist */,
 				965D34752509710B0007115D /* Preview Content */,
+				965D349D2509725F0007115D /* Handler.swift */,
+				965D349F250975990007115D /* Response.swift */,
+				965D34A1250AAB5C0007115D /* ActivityViewController.swift */,
+				965D34A3250AAF2A0007115D /* ActivityIndicator.swift */,
 			);
 			path = InstaGif;
 			sourceTree = "<group>";
@@ -136,6 +168,37 @@
 			path = InstaGifUITests;
 			sourceTree = "<group>";
 		};
+		96792CC6250AB92900C01C17 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				96792CC7250AB93D00C01C17 /* UIImageExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		A11B33AB3409D473F905C77A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6C57A6E68DBD3E6260D85CE /* Pods-InstaGif.debug.xcconfig */,
+				3B0A082ECD72F3A80DDE2FF6 /* Pods-InstaGif.release.xcconfig */,
+				23A819D1BE716F97B3F4E3BF /* Pods-InstaGif-InstaGifUITests.debug.xcconfig */,
+				273071D3DFF326C4703FD90E /* Pods-InstaGif-InstaGifUITests.release.xcconfig */,
+				94A0C57CFE95C52455734C4C /* Pods-InstaGifTests.debug.xcconfig */,
+				36BB8013E5CD5EDC0C97E323 /* Pods-InstaGifTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB015B38E3A420F000C00765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				990D3845938952D2A762AFC8 /* Pods_InstaGif.framework */,
+				B20C6539B870992F2D5B4761 /* Pods_InstaGif_InstaGifUITests.framework */,
+				791ECE3EECCD7D736A5F204F /* Pods_InstaGifTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 965D34942509710B0007115D /* Build configuration list for PBXNativeTarget "InstaGif" */;
 			buildPhases = (
+				BD1B6227E623BE842FBF0A87 /* [CP] Check Pods Manifest.lock */,
+				A1017B42BCE2DAC994F6DCD3 /* [CP] Prepare Artifacts */,
 				965D3466250971070007115D /* Sources */,
 				965D3467250971070007115D /* Frameworks */,
 				965D3468250971070007115D /* Resources */,
+				452FBB54D68F396EC6CEA33E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 965D34972509710B0007115D /* Build configuration list for PBXNativeTarget "InstaGifTests" */;
 			buildPhases = (
+				0DE95F879A599F4B416FCD44 /* [CP] Check Pods Manifest.lock */,
 				965D347C2509710B0007115D /* Sources */,
 				965D347D2509710B0007115D /* Frameworks */,
 				965D347E2509710B0007115D /* Resources */,
@@ -178,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 965D349A2509710B0007115D /* Build configuration list for PBXNativeTarget "InstaGifUITests" */;
 			buildPhases = (
+				FEE88DD1632A93DABE2DE416 /* [CP] Check Pods Manifest.lock */,
+				18E7BC3ABBA41EEB98A441EF /* [CP] Prepare Artifacts */,
 				965D34872509710B0007115D /* Sources */,
 				965D34882509710B0007115D /* Frameworks */,
 				965D34892509710B0007115D /* Resources */,
+				5AD4827C7BDBBD528DB2BD8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,14 +332,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DE95F879A599F4B416FCD44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaGifTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18E7BC3ABBA41EEB98A441EF /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaGif-InstaGifUITests/Pods-InstaGif-InstaGifUITests-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaGif-InstaGifUITests/Pods-InstaGif-InstaGifUITests-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaGif-InstaGifUITests/Pods-InstaGif-InstaGifUITests-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		452FBB54D68F396EC6CEA33E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaGif/Pods-InstaGif-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaGif/Pods-InstaGif-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaGif/Pods-InstaGif-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD4827C7BDBBD528DB2BD8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaGif-InstaGifUITests/Pods-InstaGif-InstaGifUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaGif-InstaGifUITests/Pods-InstaGif-InstaGifUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaGif-InstaGifUITests/Pods-InstaGif-InstaGifUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1017B42BCE2DAC994F6DCD3 /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaGif/Pods-InstaGif-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaGif/Pods-InstaGif-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaGif/Pods-InstaGif-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD1B6227E623BE842FBF0A87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaGif-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE88DD1632A93DABE2DE416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaGif-InstaGifUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		965D3466250971070007115D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				965D346E250971070007115D /* AppDelegate.swift in Sources */,
+				965D34A2250AAB5C0007115D /* ActivityViewController.swift in Sources */,
 				965D3470250971070007115D /* SceneDelegate.swift in Sources */,
+				965D349E2509725F0007115D /* Handler.swift in Sources */,
+				965D34A4250AAF2A0007115D /* ActivityIndicator.swift in Sources */,
 				965D3472250971070007115D /* ContentView.swift in Sources */,
+				965D34A0250975990007115D /* Response.swift in Sources */,
+				96792CC8250AB93D00C01C17 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +644,7 @@
 		};
 		965D34952509710B0007115D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C57A6E68DBD3E6260D85CE /* Pods-InstaGif.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +665,7 @@
 		};
 		965D34962509710B0007115D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0A082ECD72F3A80DDE2FF6 /* Pods-InstaGif.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +686,7 @@
 		};
 		965D34982509710B0007115D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A0C57CFE95C52455734C4C /* Pods-InstaGifTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +709,7 @@
 		};
 		965D34992509710B0007115D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BB8013E5CD5EDC0C97E323 /* Pods-InstaGifTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +732,7 @@
 		};
 		965D349B2509710B0007115D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A819D1BE716F97B3F4E3BF /* Pods-InstaGif-InstaGifUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +753,7 @@
 		};
 		965D349C2509710B0007115D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273071D3DFF326C4703FD90E /* Pods-InstaGif-InstaGifUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

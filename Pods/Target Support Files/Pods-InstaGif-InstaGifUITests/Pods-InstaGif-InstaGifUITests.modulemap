@@ -1,0 +1,6 @@
+framework module Pods_InstaGif_InstaGifUITests {
+  umbrella header "Pods-InstaGif-InstaGifUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
